@@ -21,6 +21,8 @@ Config.now_if_args(function()
 		"vim",
 		"vimdoc",
 		"python",
+		"gitcommit",
+		"jjdescription",
 	}
 
 	-- Get installed parsers
