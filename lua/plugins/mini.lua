@@ -9,10 +9,6 @@ Config.later(function()
 end)
 
 Config.later(function()
-	require("mini.pairs").setup()
-end)
-
-Config.later(function()
 	require("mini.pick").setup()
 	vim.keymap.set("n", "<Leader>sh", "<Cmd>Pick help<CR>", { nowait = true, desc = "Search Help" })
 	vim.keymap.set("n", "<Leader>sf", "<Cmd>Pick files<CR>", { nowait = true, desc = "Search Files" })
