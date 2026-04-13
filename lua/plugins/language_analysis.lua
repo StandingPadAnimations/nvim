@@ -23,6 +23,7 @@ Config.now_if_args(function()
 		"python",
 		"gitcommit",
 		"jjdescription",
+		"typst",
 	}
 
 	-- Get installed parsers
