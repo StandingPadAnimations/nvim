@@ -1,6 +1,5 @@
 Config.on_event("InsertCharPre", function()
 	vim.pack.add({
-		Config.gh("nvim-treesitter/nvim-treesitter"),
 		Config.gh("abecodes/tabout.nvim"),
 	})
 
