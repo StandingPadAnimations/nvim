@@ -1,4 +1,11 @@
 -- Mini is already installed by this point
+--
+-- We use Mini as much as possible because
+-- it's more minimal to use, and it avoids
+-- the issue of long start-up times. Yes, Mini
+-- isn't as feature-filled as individual
+-- plugins, but if I want to use Neovim,
+-- not VSCode
 
 Config.later(function()
 	require("mini.ai").setup({ n_lines = 500 })
