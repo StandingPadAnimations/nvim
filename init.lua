@@ -51,11 +51,10 @@ Config.on_packchanged = function(plugin_name, kinds, callback, desc)
 end
 
 -- Load settings
-require("config.settings")
+Config.now(function() require("config.settings") end)
 
 -- Load plugins
-require("plugins.mini")
-require("plugins.language_analysis")
-require("plugins.file")
-require("plugins.git")
-require("plugins.tabout")
+Config.now(function() require("plugins.mini") end)
+Config.now(function() require("plugins.language_analysis") end)
+Config.now(function() require("plugins.file") end)
+Config.now(function() require("plugins.tabout") end)
