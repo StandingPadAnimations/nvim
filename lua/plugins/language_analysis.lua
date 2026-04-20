@@ -26,6 +26,7 @@ Config.now_if_args(function()
 		"typst",
 		"c",
 		"cpp",
+		"odin",
 	}
 
 	-- Get installed parsers
