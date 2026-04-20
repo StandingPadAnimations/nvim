@@ -26,7 +26,9 @@ Config.now_if_args(function()
 		"typst",
 		"c",
 		"cpp",
-		"odin",
+		"gdscript",
+		"godot_resource",
+		"gdshader",
 	}
 
 	-- Get installed parsers
@@ -75,5 +77,6 @@ Config.now_if_args(function()
 		"html-lsp", -- HTML
 		"tinymist", -- Typst
 		"rust-analyzer", -- Rust
+		"gdscript", -- GDScript
 	})
 end)
