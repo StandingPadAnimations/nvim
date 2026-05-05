@@ -29,6 +29,7 @@ Config.now_if_args(function()
 		"gdscript",
 		"godot_resource",
 		"gdshader",
+		"rust",
 	}
 
 	-- Get installed parsers
@@ -76,7 +77,7 @@ Config.now_if_args(function()
 		"gopls", -- Go
 		"html-lsp", -- HTML
 		"tinymist", -- Typst
-		"rust-analyzer", -- Rust
+		"rust_analyzer", -- Rust
 		"gdscript", -- GDScript
 	})
 end)
