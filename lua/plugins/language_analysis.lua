@@ -22,6 +22,7 @@ Config.now_if_args(function()
 		"vimdoc",
 		"python",
 		"gitcommit",
+		"json",
 		"jjdescription",
 		"typst",
 		"c",
@@ -79,5 +80,6 @@ Config.now_if_args(function()
 		"tinymist", -- Typst
 		"rust_analyzer", -- Rust
 		"gdscript", -- GDScript
+		"harper-ls", -- Spellcheck
 	})
 end)
