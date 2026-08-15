@@ -31,6 +31,7 @@ Config.now_if_args(function()
 		"godot_resource",
 		"gdshader",
 		"rust",
+		"go",
 	}
 
 	-- Get installed parsers
@@ -80,6 +81,6 @@ Config.now_if_args(function()
 		"tinymist", -- Typst
 		"rust_analyzer", -- Rust
 		"gdscript", -- GDScript
-		"harper-ls", -- Spellcheck
+		"harper_ls", -- Spellcheck
 	})
 end)
